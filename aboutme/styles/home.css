@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(29, 137, 204);
+}
+
+p {
+    font-size: 300%;
+    text-decoration-color: rgb(22, 94, 187);
+    text-align: center;
+}
+
+.smallParagraph {
+    font-size: 15px;
+    color:rgb(255, 128, 0);
+    text-align: center;
+}
