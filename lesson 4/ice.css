@@ -1,0 +1,66 @@
+body {
+    background-color: #FCA6C9;
+}
+
+.pageStuff {
+    width: 450px;
+    margin: 0 auto;
+    /*max-height: 500px;
+    overflow: scroll;*/
+    /*height: 100vh;*/
+    text-align: center;
+}
+
+.pageStuff h1 {
+    color:white;
+    font-family: Arial, sans-serif;
+}
+
+.white {
+    color: white
+}
+
+.coolFont footer {
+    font-family: Arial, sans-serif;
+}
+
+.smallFont {
+    font-size: 95%;
+}
+
+.pageStuff ol {
+    font-weight: bold;
+    text-align: left;
+    /*line-height: 200%;*/
+    padding-inline-start: 32px;
+}
+
+.pageStuff ol li {
+ margin-top: 15px;
+}
+
+.pageStuff img {
+    width: 200px;
+}
+
+.quotation {
+    font-size: 40px;
+}
+
+.quotation::before {
+    content: '❝' ;
+    margin-left: 2px;
+}
+
+.quotation::after {
+    content: '❞' ;
+    margin-left: 2px;
+}
+
+footer p {
+    margin: 4px auto;
+}
+
+h1:hover {
+    color: black;
+}
