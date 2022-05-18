@@ -1,0 +1,45 @@
+#Red {
+    background-color: red;
+    text-align: center;
+    height: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+#Blue {
+    background-color: blue;
+    text-align: center;
+    height: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: 0 auto;
+    width: 70%;
+    
+    
+}
+
+#Green {
+    background-color: green;
+    text-align: center;
+    height: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#Boxes {
+    margin: 0 auto;
+}
+
+.Space {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: > 0;
+    float: left;
+    float
+}
