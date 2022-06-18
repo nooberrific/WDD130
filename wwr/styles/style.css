@@ -281,3 +281,58 @@ main section img {
         margin-top: 25px;
     }
 }
+/* Everything below is for the subpage */
+
+main {
+    background-color: #92DCE5;
+    padding-bottom: 200px;
+}
+.sub-grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.subpage-title {
+    font-size: 80px;
+    text-align: center;
+    color:#00296B;
+    background-color: #17b5d5;
+    font-family: 'Tapestry','Helvetica';
+    width: 400px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 50px auto;
+    margin-top: -100px;
+}
+
+.subpage-header {
+    font-size: 30px;
+    text-align: center;
+    color:#00296B;
+    font-family: 'Tapestry','Helvetica';
+    padding-bottom: 20px;
+    padding-top: 100px;
+
+}
+.sub-parags {
+    color: black;
+    font-family: 'Raleway','Arial','sans-serif';
+    text-align: center;
+    background-color: #17b5d5;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 50%;
+    height: 50%;
+    box-shadow: 5px 5px 10px #00296B;
+    padding: 20px 10px;
+}
+
+.sub-image {
+    display: block;
+    border: 10px solid #00296B;
+    box-shadow: 5px 5px 10px #00296B;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 500px;
+}
