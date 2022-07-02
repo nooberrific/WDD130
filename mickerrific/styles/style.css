@@ -1,15 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
 #hero-img {
     width: 200px;
 }
+    
+nav a {
+    text-align: center;
+    color: #4cc9f0;
+    text-decoration: none;
+    padding: 35px;
+}
 
-.main-img {
-    width: 200px;
+main {
+    background-color: #4cc9f0;
+    padding-top: 0;
+}
+
+nav {
+background-color: #4361ee;
+text-align: center;
+height: 50px;
+padding-top: 40px;
+
 }
 
 
+nav a:hover {
+    background-color: #4cc9f0;
+    color: white;
+}
 
+footer {
+    background-color: #7209b7;
+    padding: 25px 50px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+}
 
+footer h3 {
+    color: #4cc9f0;
+}
 
+footer h3 a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: #4cc9f0;
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+}
+
+.yt {
+    margin-right: 0 auto;
+    padding-left: 25px;
+    width: 40px;
+    
+}
+/* this section is for the home page */
+#hero {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 0;
+
+}
+
+#hero-img {
+    width: 50%;
+}
+
+.main-header {
+    text-align: center;
+    margin-left: auto;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #3a0ca3;
+
+}
+
+.main-paragraphs {
+    color: white;
+    margin:0 auto;
+    padding: 50px;
+    font-size: large;
+    font-family: Helvetica, sans-serif;
+    width: 50%;
+    background-color: #4361ee;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#images {
+    text-align: center;
+}
+
+.key-img {
+    width: 400px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 25px solid #7209b7;
+    background-color: #4361ee;
+    margin: 20px;
+}
+
+.youset-img {
+    width: 400px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 25px solid #7209b7;
+    background-color: #4361ee;
+    margin: 20px;
+}
 /* this section is for about me page */
 .codimg, .pianoimg {
     width: 200px;
