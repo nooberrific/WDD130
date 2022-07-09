@@ -4,6 +4,28 @@
     width: 200px;
 }
     
+.micklogo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+#logo_link {
+    padding-top: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 100px auto;
+    background-color: #4361ee;
+    font-size: large;
+
+}
+
 nav a {
     text-align: center;
     color: #4cc9f0;
@@ -21,7 +43,6 @@ background-color: #4361ee;
 text-align: center;
 height: 50px;
 padding-top: 40px;
-
 }
 
 
@@ -68,8 +89,9 @@ footer a:hover {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 20px;
     margin-bottom: 0;
+    
 
 }
 
@@ -122,5 +144,24 @@ footer a:hover {
 }
 /* this section is for about me page */
 .codimg, .pianoimg {
-    width: 200px;
+    width: 400px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 25px solid #7209b7;
+    background-color: #4361ee;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about-parag {
+    color: white;
+    margin:0 auto;
+    padding: 50px;
+    font-size: large;
+    font-family: Helvetica, sans-serif;
+    width: 50%;
+    background-color: #4361ee;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
