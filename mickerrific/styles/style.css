@@ -36,6 +36,7 @@ nav a {
 main {
     background-color: #4cc9f0;
     padding-top: 0;
+    padding-bottom: 30px;
 }
 
 nav {
@@ -166,4 +167,18 @@ footer a:hover {
     margin-bottom: 50px;
     margin-top: 50px;
     line-height: 1.5;
+}
+
+.main-img {
+    width: 400px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 25px solid #7209b7;
+    background-color: #4361ee;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
