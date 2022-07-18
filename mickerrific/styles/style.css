@@ -80,7 +80,7 @@ footer a:hover {
 }
 
 .yt {
-    margin-right: 0 auto;
+    margin-right: 0;
     padding-left: 25px;
     width: 40px;
     
@@ -122,6 +122,10 @@ footer a:hover {
 }
 
 #images {
+    text-align: center;
+}
+
+#ndimage{
     text-align: center;
 }
 
